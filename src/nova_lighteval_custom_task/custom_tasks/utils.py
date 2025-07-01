@@ -31,7 +31,7 @@ def create_lighteval_task(
         suite (list[str]): Evaluation suites to which the task belongs.
         metric (list[str]): List of all the metrics for the current task.
         prompt_function (Callable[[dict, str], Doc]): Function used to create the [`Doc`] samples from each line of the evaluation dataset.
-        hf_repo (str): Path of the hub dataset repository containing the evaluation information. The path will be overwritten with the local path using the load_dataset patch
+        hf_repo (str): Path of the hub dataset repository containing the evaluation information.
         hf_subset (str): Subset used for the current task, will be default if none is selected.
         hf_avail_splits (list[str]): All the available splits in the evaluation dataset
         evaluation_splits (list[str]): List of the splits actually used for this evaluation

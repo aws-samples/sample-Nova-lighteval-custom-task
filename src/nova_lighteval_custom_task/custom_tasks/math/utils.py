@@ -1,4 +1,3 @@
-# Copied from OneClickEval math utils: https://tiny.amazon.com/15i7pafp
 # mypy: ignore-errors
 import re
 
